@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T12:12:30.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ny34NUbDfjD-i6FVGilJ" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T12:33:35.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="1vrJf7OE9HqtPMvDD-Qc" version="22.1.5" type="github">
   <diagram name="第 1 页" id="HqVkvYskfNYnTDdMrRLA">
-    <mxGraphModel dx="1302" dy="462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,20 +136,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=9;" vertex="1" parent="1">
-          <mxGeometry x="80" y="360" width="404" height="100" as="geometry" />
+          <mxGeometry x="80" y="360" width="345" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;缓存页&lt;br&gt;(数据页)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="383" width="50" height="32.22" as="geometry" />
         </mxCell>
-        <mxCell id="jFpza9jx79DIbtN-fyIl-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="jFpza9jx79DIbtN-fyIl-49">
+        <mxCell id="jFpza9jx79DIbtN-fyIl-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-28" target="jFpza9jx79DIbtN-fyIl-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="206" y="399.11" as="sourcePoint" />
-            <mxPoint x="398" y="445.34749999999997" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="399" />
-              <mxPoint x="220" y="470" />
-              <mxPoint x="416" y="470" />
+              <mxPoint x="226" y="399" />
+              <mxPoint x="226" y="469" />
+              <mxPoint x="372" y="469" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jFpza9jx79DIbtN-fyIl-80" value="任意缓存页修改都要写入redo log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jFpza9jx79DIbtN-fyIl-77">
+          <mxGeometry x="0.164" y="-2" relative="1" as="geometry">
+            <mxPoint x="-38" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;缓存页&lt;br&gt;(脏页)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -172,18 +175,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jFpza9jx79DIbtN-fyIl-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-40" target="jFpza9jx79DIbtN-fyIl-49">
+        <mxCell id="jFpza9jx79DIbtN-fyIl-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-40">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="399" />
-              <mxPoint x="220" y="470" />
-              <mxPoint x="416" y="470" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jFpza9jx79DIbtN-fyIl-68" value="任意缓存页的修改都要写入redo log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jFpza9jx79DIbtN-fyIl-67">
-          <mxGeometry x="0.3639" y="-3" relative="1" as="geometry">
-            <mxPoint x="-16" y="-3" as="offset" />
+            <mxPoint x="226" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-40" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;undo页&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -198,21 +192,21 @@
         <mxCell id="jFpza9jx79DIbtN-fyIl-43" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;锁信息&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="300" y="421.78" width="50" height="32.22" as="geometry" />
         </mxCell>
-        <mxCell id="jFpza9jx79DIbtN-fyIl-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-47" target="jFpza9jx79DIbtN-fyIl-20">
+        <mxCell id="jFpza9jx79DIbtN-fyIl-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-47" target="jFpza9jx79DIbtN-fyIl-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="390" />
-              <mxPoint x="500" y="653" />
+              <mxPoint x="509" y="416" />
+              <mxPoint x="509" y="653" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jFpza9jx79DIbtN-fyIl-54" value="事务提交后刷盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jFpza9jx79DIbtN-fyIl-52">
-          <mxGeometry x="0.1458" y="-1" relative="1" as="geometry">
-            <mxPoint x="-9" y="-12" as="offset" />
+        <mxCell id="jFpza9jx79DIbtN-fyIl-76" value="事务提交后刷盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jFpza9jx79DIbtN-fyIl-75">
+          <mxGeometry x="-0.0503" y="-4" relative="1" as="geometry">
+            <mxPoint x="-21" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-47" value="binlog cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="400" y="370" width="64" height="40" as="geometry" />
+          <mxGeometry x="433" y="396.31" width="64" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-49" target="jFpza9jx79DIbtN-fyIl-17">
           <mxGeometry relative="1" as="geometry" />
@@ -222,8 +216,8 @@
             <mxPoint x="24" y="-49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jFpza9jx79DIbtN-fyIl-49" value="redo log&lt;br&gt;cache" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="400" y="419.39" width="64" height="34.61" as="geometry" />
+        <mxCell id="jFpza9jx79DIbtN-fyIl-49" value="redo log&lt;br&gt;buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="356" y="399" width="64" height="34.61" as="geometry" />
         </mxCell>
         <mxCell id="jFpza9jx79DIbtN-fyIl-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jFpza9jx79DIbtN-fyIl-56" target="jFpza9jx79DIbtN-fyIl-40">
           <mxGeometry relative="1" as="geometry" />
