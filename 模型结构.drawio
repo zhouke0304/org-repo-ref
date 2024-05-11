@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T06:35:13.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="C0v3mZ2CrnEvzw8eZkB4" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-11T13:27:46.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="rmdIkuUfLXGKYVb5lnBw" version="24.3.1" type="github" pages="2">
   <diagram name="第 1 页" id="I8sQsdO8rdFDU-pv1utJ">
     <mxGraphModel dx="1613" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -508,7 +508,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XHXvKOyE-kWGTDyMjTdA" name="技术路线">
-    <mxGraphModel dx="758" dy="571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="631" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -597,6 +597,9 @@
         </mxCell>
         <mxCell id="6mi-uml73UsYhpmFFxK_-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.602;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="6mi-uml73UsYhpmFFxK_-1" target="6mi-uml73UsYhpmFFxK_-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6mi-uml73UsYhpmFFxK_-28" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;在ViT中引入了Squeeze - and - Excitation ( SE )模块&lt;/strong&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="394.67" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
