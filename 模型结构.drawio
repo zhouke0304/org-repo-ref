@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T13:45:59.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="WhT6pJ7fbPGbSa3ycnlr" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-11T13:46:55.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="x8a6vH4qXLT2J3Lc1aBS" version="24.3.1" type="github" pages="2">
   <diagram name="第 1 页" id="I8sQsdO8rdFDU-pv1utJ">
     <mxGraphModel dx="1613" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -600,6 +600,9 @@
         </mxCell>
         <mxCell id="6mi-uml73UsYhpmFFxK_-28" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;&lt;strong&gt;在ViT中引入了Squeeze - and - Excitation ( SE )模块&lt;/strong&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="230" y="430" width="394.67" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="6mi-uml73UsYhpmFFxK_-29" value="&lt;strong style=&quot;box-sizing: border-box; outline: 0px; font-weight: 700; font-synthesis-style: auto; overflow-wrap: break-word; color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: no-common-ligatures; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Longformer合并最后的时序特征&lt;br&gt;&lt;h1 style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; font-size: 28px; overflow-wrap: break-word; color: rgb(34, 34, 38); word-break: break-all; font-variant-ligatures: common-ligatures;&quot; id=&quot;articleContentId&quot; class=&quot;title-article&quot;&gt;Video Transformer Network&lt;/h1&gt;&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="428" y="535" width="487" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
