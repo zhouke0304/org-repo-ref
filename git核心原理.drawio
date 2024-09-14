@@ -1,9 +1,139 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.7">
   <diagram name="第 1 页" id="CVHddjnmpuOAqub84BDd">
-    <mxGraphModel>
+    <mxGraphModel dx="1213" dy="627" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CdomqML8UcMMarvWhPQ8-1" value="file1:&lt;br&gt;abc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="375" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-3" value="file2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="375" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-9" target="CdomqML8UcMMarvWhPQ8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-30" value="每次修改一个文件add后，会创建一个新的blob，&lt;br&gt;索引区的该文件会指向新的blob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CdomqML8UcMMarvWhPQ8-28">
+          <mxGeometry x="-0.2615" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-9" value="file1:&lt;br&gt;abcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-11" target="CdomqML8UcMMarvWhPQ8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="230" />
+              <mxPoint x="370" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-11" target="CdomqML8UcMMarvWhPQ8-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="230" />
+              <mxPoint x="240" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-11" target="CdomqML8UcMMarvWhPQ8-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-25" value="第一次提交之后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CdomqML8UcMMarvWhPQ8-24">
+          <mxGeometry x="-0.0037" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-11" value="commit 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-17" value="file1:&lt;br&gt;abc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="375" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-18" target="CdomqML8UcMMarvWhPQ8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-18" value="file2:&lt;br&gt;abcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="272.5" width="60" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-19" target="CdomqML8UcMMarvWhPQ8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-19" value="file1:&lt;br&gt;abcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-22" target="CdomqML8UcMMarvWhPQ8-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="230" />
+              <mxPoint x="640" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-22" target="CdomqML8UcMMarvWhPQ8-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="230" />
+              <mxPoint x="510" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-22" target="CdomqML8UcMMarvWhPQ8-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-42" value="第二次提交之后&lt;div&gt;每次提交都是对当前index区的保存&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CdomqML8UcMMarvWhPQ8-41">
+          <mxGeometry x="0.1095" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-22" value="commit 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="110" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-26" value="file2:&lt;br&gt;abc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="375" width="60" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-32" value="file1:&lt;br&gt;abc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="372.5" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-34" target="CdomqML8UcMMarvWhPQ8-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-34" value="file2:&lt;br&gt;abcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="270" width="60" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-36" target="CdomqML8UcMMarvWhPQ8-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-36" value="file1:&lt;br&gt;abcd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="267.5" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-39" target="CdomqML8UcMMarvWhPQ8-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="227.5" />
+              <mxPoint x="970" y="227.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CdomqML8UcMMarvWhPQ8-39" target="CdomqML8UcMMarvWhPQ8-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="227.5" />
+              <mxPoint x="840" y="227.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-39" value="index暂存区" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="110" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CdomqML8UcMMarvWhPQ8-40" value="file2:&lt;br&gt;abc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="372.5" width="60" height="37.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
